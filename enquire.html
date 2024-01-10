@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hire Play's Tech Servicing Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <style>
+        /* Add the styles for form centering and rounded corners here */
+        .details-container {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 400px; /* Adjust the max-width to your preference */
+        }
+
+        input, textarea {
+            border-radius: 10px; /* Adjust the border-radius to your preference */
+            padding: 8px;
+            margin-bottom: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50; /* Green color, adjust to your preference */
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049; /* Darker green color on hover */
+        }
+    </style>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Hire Play's Tech Servicing</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Services</a></li>
+          <li><a href="index.html">Coming Soon</a></li>
+          <li><a href="index.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Hire Play's Tech Servicing</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">Enquire Today</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h3>Enquiry</h3>
+              <form form action="https://formsubmit.co/hireplay2024@gmail.com" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+        
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+        
+                <label for="enquiry">Enquiry Text:</label>
+                <textarea id="enquiry" name="enquiry" rows="4" required></textarea>
+                <br>
+        
+                <input type="submit" value="Submit">
+                <br>
+            </form>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                Introducing HirePlay's unparalleled Tech Repair, Maintenance, and Servicing – 
+                your go-to solution for a seamless technology experience! Designed with the elderly in mind, 
+                we proudly offer our top-notch services at rates that beat the competition. From mobile devices 
+                to computers, video game consoles, TV startup and setup, sound system configuration, and comprehensive 
+                guidance for all your video, audio, and tech needs – we've got you covered!
+                <br><br>
+                Our team specializes in providing expert assistance with a personal touch. 
+                Whether you prefer the convenience of in-house repairs or require a prompt call-out service, 
+                HirePlay is committed to delivering excellence. Trust us to restore and maintain your devices 
+                efficiently, ensuring they function at their best.<br><br>
+
+                Experience the difference with HirePlay's Tech Repair, where professional service meets affordability. 
+                Elevate your tech experience with us – because your satisfaction is our priority!
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">HirePlay2024@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">0423 643 317</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Services</a></li>
+            <li><a href="index.html">Coming Soon</a></li>
+            <li><a href="index.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 HirePlay. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
