@@ -355,62 +355,42 @@ article .icon {
 
 /* ABOUT RADIO SECTION */
 
+/* Update the CSS for the About Radio Section */
 #about-radio {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .section-container-radio {
   display: flex;
-  gap: 4rem;
-  height: 80%;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .section__pic-container-radio {
-  height: auto; /* Change height to auto for responsiveness */
-  width: 100%; /* Change width to 100% for responsiveness */
-  max-width: 1200px; /* Limit maximum width */
-  margin: 0 auto; /* Center the container */
-}
-
-.section__pic-container-radio2 {
-  height: 50%;
-  width: 50%;
+  flex: 1;
+  max-width: 600px;
 }
 
 .about-details-container-radio {
-  justify-content: center;
-  flex-direction: column;
-}
-
-.about-containers-radio {
-  display: flex;
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  flex: 1;
+  max-width: 600px;
 }
 
 .text-container-radio {
-  flex: 1;
-  height: auto; /* Change height to auto for responsiveness */
-  width: 100%; /* Change width to 100% for responsiveness */
-  max-width: 1200px; /* Limit maximum width */
-}
-
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
+  text-align: center;
 }
 
 .details-container-radio {
   padding: 1.5rem;
-  flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  border: 1px solid rgb(163, 163, 163);
   text-align: center;
 }
+
 /* IMAGE RESPONSIVENESS */
 
 /* RESPONSIVE DESIGN */
